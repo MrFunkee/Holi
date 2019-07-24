@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Bitácora día 5</title>
+		<style type="text/css">
+			body{
+			background-color: #d2b48c;
+			margin-top: 5%;
+			margin-left: 20%;
+			margin-right: 20%;
+			border: 7px dotted black;
+			padding:10px 10px 10px 10px;
+			font-family: cursive;
+		}
+		</style>
+	</head>
+	
+	<body>
+		<h1>DIA 5</h1>
+		
+		<p><em>Character entities</em>: "&lt;", "&gt;", "&amp;"" y muchos otros carácteres no se pueden escribir diréctamente en html porque son interpretados como código. Así que hay que aludir a ellos de otra manera.</p>
+		<p>El formato es "&amp;---;" donde los guiones son el código correspondiente al carácter deseado. Por ejemplo</p>
+			<ul>
+				<li>lt= &nbsp;&nbsp;&nbsp; &lt;</li>
+				<li>gt= &nbsp;&nbsp; &gt;</li>
+				<li>amp= &amp;</li>
+			</ul>
+		<p>Son demasiados carácteres para poder ser enlistados acá. Para una lista más exhaustiva, usa google o visita <a href="https://www.freeformatter.com/html-entities.html">esta página</a>.</p>
+		<p></p>
+		<p>Ahora veremos un par de tags que solo cambian la apariencia del contenido de este.</p>
+		<ul>
+			<li>&lt;code&gt;= <code>Cambia el font</code></li>
+			<li>&lt;strong&gt;= <strong>LETRA FUERTE</strong></li>
+			<li>&lt;pre&gt;= <pre>conserva lo escrito así tal cual, ignorando css. Probaré con un enter ahora
+			a ver si conserva el line break sin un &lt;br&gt;. 
+Efectivamente, conserva el enter. Y también conserva 
+los	 "tabs" 	de espaciado.</pre> Aparentemente, tambíen ignora el formateo de &lt;li&gt;</li>
+			<li>&lt;em&gt;= dá <em>"cursiva al contenido"</em></li>
+			<li>&lt;hr&gt;= "Horizontal rules"</li>
+
+		</ul>
+		<p>&lt;hr&gt;: este tag genera una linea horizontal a lo largo de la página, útil para separar secciones.</p>
+		<hr>
+		<p></p>
+	</body>
+</html>
